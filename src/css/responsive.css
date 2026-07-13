@@ -9,3 +9,21 @@
     }
 
 }
+@media (max-width: 900px) {
+
+    .dashboard-preview {
+
+        grid-template-columns: 1fr;
+    }
+
+    .preview-content {
+
+        grid-template-columns: 1fr;
+    }
+
+    .large-card {
+
+        grid-column: span 1;
+    }
+
+}
